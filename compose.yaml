@@ -1,0 +1,18 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: portfolio
+    command: dev
+    ports:
+      - 5173:5173
+    develop:
+      watch:
+        - path: .
+          ignore:
+            - node_modules
+          target: /app
+          action: sync
+        - path: ./package.json
+          action: rebuild
