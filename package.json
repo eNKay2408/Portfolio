@@ -7,7 +7,8 @@
 		"dev": "vite --host 0.0.0.0",
 		"build": "vite build",
 		"lint": "eslint .",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"serve": "serve -s dist"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^4.4.1",
@@ -21,6 +22,7 @@
 		"react-router-dom": "^6.26.2",
 		"react-tilt": "^1.0.2",
 		"react-vertical-timeline-component": "^3.6.0",
+		"serve": "^14.2.3",
 		"three": "^0.168.0"
 	},
 	"devDependencies": {
