@@ -1,0 +1,30 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  GITHUB_REPO_URL: https://github.com/eNKay2408/$GITHUB_REPO.git
+
+build:
+  stage: build
+  image: node:20
+  before_script:
+    - git clone $GITHUB_REPO_URL
+    - cd $GITHUB_REPO
+  script:
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - $GITHUB_REPO/dist
+
+deploy:
+  stage: deploy
+  image:
+    name: amazon/aws-cli
+    entrypoint: [""]
+  script:
+    - cd $GITHUB_REPO/dist
+    - aws s3 sync . s3://$S3_BUCKET --delete
+  only:
+    - main
