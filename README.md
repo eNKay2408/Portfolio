@@ -13,7 +13,7 @@
 
   <img width="706px" src="https://res.cloudinary.com/dvzhmi7a9/image/upload/v1727444188/Portfolio/1-Hero.png">
 
-  [![My Portfolio](https://img.shields.io/badge/🔗_Visit_website-black?style=flat)](https://enkay.live)
+  [![My Portfolio](https://img.shields.io/badge/🔗_Visit_website-white?style=flat)](https://enkay.live)
 
 </div>  
 
@@ -119,7 +119,7 @@ npm run dev
 
 #### 6. Make changes to the code and see the changes reflected in real-time.
 
-### 🔄 CI/CD
+### 🔄 CI/CD - GitLab
 
 #### 1. Create GitHub repository and add remote URL to the local repository.
 - Because GitLab CI/CD is used for building and deploying the application
