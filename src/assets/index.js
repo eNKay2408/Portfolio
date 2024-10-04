@@ -6,6 +6,7 @@ import close from "./close.svg";
 import linkedin from "./socials/linkedin.png";
 import github from "./socials/github.png";
 import facebook from "./socials/facebook.png";
+import cv from "./socials/cv.png";
 
 import fullstack from "./roles/fullstack.png";
 import software from "./roles/software.png";
@@ -69,4 +70,5 @@ export {
 	live,
 	linkedin,
 	facebook,
+	cv,
 };
