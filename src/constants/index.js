@@ -46,10 +46,6 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Full-Stack Developer",
-		icon: fullstack,
-	},
-	{
 		title: "Software Engineer",
 		icon: software,
 	},
@@ -58,7 +54,11 @@ const services = [
 		icon: devops,
 	},
 	{
-		title: "Technical Lead",
+		title: "Full-Stack Developer",
+		icon: fullstack,
+	},
+	{
+		title: "Project Management Assistant",
 		icon: lead,
 	},
 ];
@@ -76,14 +76,15 @@ const achievements = [
 			"Coursera | Google IT Support | Jul 4",
 			"Udemy | Spring Boot 3 & Hibernate | Aug 9",
 			"Devopsedu.vn | DevOps for Freshers | Aug 22",
-			"TOEIC | 785 Points | Sep 15",
+			"TOEIC | Score: 785 | Sep 15",
 		],
 		links: [
-			"https://www.udemy.com/certificate/UC-19caddaa-f0a5-4a73-a49d-d9fd5750c035",
+			"https://ude.my/UC-19caddaa-f0a5-4a73-a49d-d9fd5750c035",
 			"https://www.freecodecamp.org/certification/enkay2408/full-stack",
 			"https://coursera.org/share/350ac477cba0add68e415b79dfe84a18",
-			"https://www.udemy.com/certificate/UC-e7f5bd3c-b360-4a18-a4a0-387d2233696b",
+			"https://ude.my/UC-e7f5bd3c-b360-4a18-a4a0-387d2233696b",
 			"https://devopsedu.vn/chung-chi-gia-su-2?cert_hash=60251d1043c30497",
+			"https://drive.google.com/file/d/1l7dzPUDAMckqX5407TNFRzdqKULGJKIz/view?usp=sharing",
 		],
 	},
 	{
@@ -220,6 +221,28 @@ const projects = [
 		live_demo_link: "https://digital-bank.enkay.live",
 	},
 	{
+		name: "E-Commerce",
+		description:
+			"A user-friendly e-commerce platform with easy-to-use admin-controlled product management, seamless product browsing, cart functionality, and secure checkout.",
+		tags: [
+			{
+				name: "spring",
+				color: "green-text-gradient",
+			},
+			{
+				name: "jwt",
+				color: "gray-text-gradient",
+			},
+			{
+				name: "bootstrap",
+				color: "orange-text-gradient",
+			},
+		],
+		image: ecommerce,
+		source_code_link: "https://github.com/eNKay2408/E-Commerce",
+		live_demo_link: "https://e-commerce.enkay.live",
+	},
+	{
 		name: "Property Tracker",
 		description:
 			"A comprehensive real estate management platform with insightful dashboards, property listings, and agent profiles, empowering users to track and manage properties efficiently.",
@@ -240,28 +263,6 @@ const projects = [
 		image: propertytracker,
 		source_code_link: "https://github.com/eNKay2408/Property-Tracker",
 		live_demo_link: "https://property-tracker.enkay.live",
-	},
-	{
-		name: "E-Commerce",
-		description:
-			"A user-friendly e-commerce platform with admin-controlled product management, seamless product browsing, cart functionality, and secure checkout.",
-		tags: [
-			{
-				name: "spring",
-				color: "green-text-gradient",
-			},
-			{
-				name: "jwt",
-				color: "gray-text-gradient",
-			},
-			{
-				name: "bootstrap",
-				color: "orange-text-gradient",
-			},
-		],
-		image: ecommerce,
-		source_code_link: "https://github.com/eNKay2408/E-Commerce",
-		live_demo_link: "https://e-commerce.enkay.live",
 	},
 ];
 
