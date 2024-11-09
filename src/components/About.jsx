@@ -45,10 +45,10 @@ const About = () => {
 			>
 				I am a software engineer from the University of Science, currently
 				residing in Ho Chi Minh City. I have knowledge in programming languages
-				such as JavaScript and Java, along with experience in
-				libraries/frameworks like React, ExpressJS, and Spring Boot.
+				such as Java and JavaScript, along with experience in
+				libraries/frameworks like Spring Boot, ReactJS, and NodeJS.
 				Additionally, I have expertise in various DevOps technologies, including
-				Docker, GitLab CI/CD, Jenkins, and AWS Services.
+				Docker, GitLab CI/CD, Jenkins, and AWS.
 				<br />
 				As a sociable and hardworking individual, I embrace challenges and
 				thrive in team environments, where I have demonstrated strong leadership
